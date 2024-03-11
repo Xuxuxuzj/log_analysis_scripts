@@ -237,7 +237,6 @@ def process_files(scanner_to_process, year_month, day, root):
     
     # get the log files to be processed based on the parameters of the scanner, year-month and day
     log_files = []
-    # get all possible years and months between the passed argument of (YYYY-MM-DD, YYYY-MM-DD) which are the start and end of the period
     directory = f'{root}/{scanner}/{year_month}/log/'
 
     
